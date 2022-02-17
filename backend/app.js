@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -21,6 +22,12 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(requestLogger);
 
+// краш-тест сервера для ревью
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 app.post('/signup', celebrate({
   body: Joi.object().keys({
     email: Joi.string().required(),
