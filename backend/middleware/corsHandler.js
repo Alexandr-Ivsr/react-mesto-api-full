@@ -1,6 +1,6 @@
 const allowedCors = [
   'http://project.mesto.nomoredomains.work',
-  'http://localhost:3000',
+  'https://project.mesto.nomoredomains.work',
 ];
 
 const corsHandler = (req, res, next) => {
