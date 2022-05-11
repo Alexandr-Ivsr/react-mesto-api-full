@@ -27,6 +27,8 @@ npm run build
 ```
 npm run dev
 ```
+### Системные требования:
+Для запуска проекта понадобится >node.js версии 16.13.1 или выше, а также >MongoDB версии 5.0.5 или выше
 ___
 ## Ссылка на сайт:
 https://project.mesto.nomoredomains.work
