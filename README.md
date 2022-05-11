@@ -7,13 +7,13 @@ HTML, CSS, BEM, JavaScript, React, React Router v.6, Node.js, mongoose, Express.
 
 ## Инструкция по развертыванию проекта:
 + Клонируйте репозиторий:
-``
+```
 git clone https://github.com/Alexandr-Ivsr/react-mesto-api-full.git
-``
+```
 + Установите зависимости:
-``
+```
 npm i
-``
+```
 ___
 ## Ссылка на сайт:
 https://project.mesto.nomoredomains.work
