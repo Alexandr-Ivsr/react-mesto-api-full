@@ -10,9 +10,22 @@ HTML, CSS, BEM, JavaScript, React, React Router v.6, Node.js, mongoose, Express.
 ```
 git clone https://github.com/Alexandr-Ivsr/react-mesto-api-full.git
 ```
++ Перейдите в папку backend:
+```
+cd react-mesto-api-full/backend
+```
+
 + Установите зависимости:
 ```
 npm i
+```
++ Запустить сервер:
+```
+npm run build
+```
++ Запустить сервер c hot-reload:
+```
+npm run dev
 ```
 ___
 ## Ссылка на сайт:
